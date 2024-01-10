@@ -33,6 +33,7 @@ export const Heros = () => {
           />
         </div>
       </div>
+      <a href="http://www.freepik.com">Designed by Freepik</a>
     </div>
   );
 };
