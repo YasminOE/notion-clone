@@ -14,7 +14,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 //TODO: add the actual logo
 export const metadata: Metadata = {
-  title: "Notion Clone",
+  title: "N-Clone",
   description:
     "A new tool that blends your everyday work apps into one. It's the all-in-one workspace for you and your team.",
   // description: "The connected workspace is better and faster to work in",

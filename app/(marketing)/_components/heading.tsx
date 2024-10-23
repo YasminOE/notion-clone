@@ -14,7 +14,7 @@ export const Heading = () => {
   return (
     <div className="max-w-3xl space-y-4">
       <h1 className="text-2xl sm:text-3xl md:text-5xl font-bold">
-        Welcome to <span className="underline">Notion clone</span>
+        Welcome to <span className="underline">your productive space</span>
       </h1>
       <h3 className="text-base md:text-xl font-medium">
         Your workspace to write, organize, and collaborate.
@@ -35,7 +35,7 @@ export const Heading = () => {
       {!isAuthenticated && !isLoading && (
         <SignInButton mode="modal">
           <Button>
-            Get notion free
+            Start Here
             <ArrowRight className="w-4 h-4 ml-2" />
           </Button>
         </SignInButton>

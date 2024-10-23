@@ -25,7 +25,7 @@ export const Logo = () => {
         alt="Logo"
         className="hidden dark:block"
       />
-      <p className={cn("font-medium", font.className)}> Notion</p>
+      <p className={cn("font-medium", font.className)}> N-Space</p>
     </div>
   );
 };
