@@ -13,6 +13,12 @@ export const Heading = () => {
   const { isAuthenticated, isLoading } = useConvexAuth();
   return (
     <div className="max-w-3xl space-y-4">
+      <div className="w-full p-4 text-center font-bold shadow-lg">
+        ⚠️ This site is a clone website. It is not the real, official site. Its
+        purpose is to look like the official site for portfolio purposes. This
+        site is not for active use. Do NOT enter your credentials or share any
+        personal information ⚠️
+      </div>
       <h1 className="text-2xl sm:text-3xl md:text-5xl font-bold">
         Welcome to <span className="underline">your productive space</span>
       </h1>
