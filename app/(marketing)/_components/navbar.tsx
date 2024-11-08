@@ -25,7 +25,7 @@ export const Navbar = () => {
       <Logo />
       <div className="md:ml-auto md:justify-end justify-between w-full flex items-center gap-x-2">
         {isLoading && <Spinner />}
-        {!isAuthenticated && !isLoading && (
+        {/* {!isAuthenticated && !isLoading && (
           <>
             <SignInButton mode="modal">
               <Button variant="ghost" size="sm">
@@ -36,15 +36,16 @@ export const Navbar = () => {
               <Button size="sm">Get started free</Button>
             </SignInButton>
           </>
-        )}
-        {isAuthenticated && !isLoading && (
+        )} */}
+        {
+          // isAuthenticated && !isLoading &&
           <>
             <Button variant="ghost" size="sm" asChild>
               <Link href="/documents">Get Started</Link>
             </Button>
             <UserButton afterSignOutUrl="/" />
           </>
-        )}
+        }
         <ModeToggle />
       </div>
     </div>
