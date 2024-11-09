@@ -38,14 +38,14 @@ export const Heading = () => {
           </Link>
         </Button>
       )}
-      {!isAuthenticated && !isLoading && (
+      {/* {!isAuthenticated && !isLoading && (
         <SignInButton mode="modal">
           <Button>
             Start Here
             <ArrowRight className="w-4 h-4 ml-2" />
           </Button>
         </SignInButton>
-      )}
+      )} */}
     </div>
   );
 };
